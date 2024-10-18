@@ -1,0 +1,8 @@
+
+clouds:
+  aws:
+    enabled: true
+    region: us-east-1
+  gcp:
+    enabled: true
+    zone: us-central1-a

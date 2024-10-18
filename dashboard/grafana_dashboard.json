@@ -1,0 +1,19 @@
+
+{
+  "dashboard": {
+    "id": null,
+    "title": "Emotion Recognition Overview",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Real-time Emotion Scores",
+        "targets": [
+          {
+            "expr": "emotion_score{job='emotion-app'}",
+            "legendFormat": "{{emotion}}"
+          }
+        ]
+      }
+    ]
+  }
+}

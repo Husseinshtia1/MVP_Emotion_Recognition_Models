@@ -1,0 +1,7 @@
+
+resources:
+- name: emotion-app-instance
+  type: compute.v1.instance
+  properties:
+    zone: us-central1-a
+    machineType: zones/us-central1-a/machineTypes/f1-micro

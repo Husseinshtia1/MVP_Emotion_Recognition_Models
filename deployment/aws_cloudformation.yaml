@@ -1,0 +1,6 @@
+
+Resources:
+  EmotionAppBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: emotion-recognition-logs

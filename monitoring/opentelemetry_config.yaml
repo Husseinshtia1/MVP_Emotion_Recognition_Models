@@ -1,0 +1,10 @@
+
+service_name: emotion-recognition-service
+exporter:
+  otlp:
+    endpoint: "http://localhost:4317"
+traces:
+  sampler: always_on
+  resource:
+    attributes:
+      service.version: 1.0.0

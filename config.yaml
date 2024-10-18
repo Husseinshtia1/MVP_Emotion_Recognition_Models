@@ -1,0 +1,12 @@
+
+app:
+  debug: true
+  host: "0.0.0.0"
+  port: 5000
+
+model:
+  path: "models/emotion_model.h5"
+
+logging:
+  level: "INFO"
+  path: "logs/app.log"

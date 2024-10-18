@@ -1,0 +1,5 @@
+
+jobs:
+  - name: Data Sync
+    schedule: "0 3 * * *"  # Every day at 3am
+    command: "python sync_data.py"

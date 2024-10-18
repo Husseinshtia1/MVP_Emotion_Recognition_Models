@@ -1,0 +1,8 @@
+
+shards:
+  - name: shard1
+    host: shard1.db.local
+    port: 5432
+  - name: shard2
+    host: shard2.db.local
+    port: 5432

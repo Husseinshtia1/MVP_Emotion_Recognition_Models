@@ -1,0 +1,1 @@
+# Placeholder content for automl_optimized_model.pkl

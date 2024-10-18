@@ -1,0 +1,19 @@
+
+{
+  "dashboard": {
+    "id": null,
+    "title": "Emotion Recognition Dashboard",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Emotion Scores Over Time",
+        "targets": [
+          {
+            "expr": "emotion_score{job='emotion_recognition_app'}",
+            "legendFormat": "{{emotion}}"
+          }
+        ]
+      }
+    ]
+  }
+}

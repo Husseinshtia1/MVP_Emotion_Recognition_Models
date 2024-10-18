@@ -1,0 +1,1 @@
+# Placeholder content for pdf_report_generator.py
